@@ -1,0 +1,20 @@
+0 silly argv { _: [ 'diff' ],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0':
+0 silly argv    '/Users/manrawat/Desktop/study-material/yarn-lerna-example/node_modules/.bin/lerna' }
+1 notice cli v3.20.2
+2 verbose rootPath /Users/manrawat/Desktop/study-material/yarn-lerna-example
+3 silly hasCommit
+4 verbose hasCommit true
+5 verbose hasTags true
+6 silly getLastTagInBranch
+7 error Error: Command failed: git describe --tags --abbrev=0
+7 error fatal: No tags can describe '5ca68a9e9d1af8453be9fd433482a882cfd92805'.
+7 error Try --always, or create some tags.
+7 error
+7 error
+7 error     at makeError (/Users/manrawat/Desktop/study-material/yarn-lerna-example/node_modules/execa/index.js:174:9)
+7 error     at Function.module.exports.sync (/Users/manrawat/Desktop/study-material/yarn-lerna-example/node_modules/execa/index.js:338:15)
+7 error     at Object.execSync (/Users/manrawat/Desktop/study-material/yarn-lerna-example/node_modules/@lerna/child-process/index.js:26:16)
+7 error     at getLastCommit (/Users/manrawat/Desktop/study-material/yarn-lerna-example/node_modules/@lerna/diff/lib/get-last-commit.js:12:25)
+7 error     at DiffCommand.initialize (/Users/manrawat/Desktop/study-material/yarn-lerna-example/node_modules/@lerna/diff/index.js:33:27)
